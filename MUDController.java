@@ -17,11 +17,11 @@ public class MUDController {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Welcome to MUD! Type 'help' for a list of commands.");
 
-        while (running) {
-            System.out.print("> ");
-            String input = scanner.nextLine().trim().toLowerCase();
-            handleInput(input);
-        }
+//        while (running) {
+//            System.out.print("> ");
+//            String input = scanner.nextLine().trim().toLowerCase();
+//            handleInput(input);
+//        }
 
         System.out.println("Game Over!");
         scanner.close();
